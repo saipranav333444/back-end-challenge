@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+import GetTotalPrice from './components/GetTotalPrice';
 function App() {
   return (
     <div className="App">
@@ -16,8 +17,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <GetTotalPrice/>
         </a>
       </header>
+      
     </div>
   );
 }
